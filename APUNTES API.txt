@@ -1,0 +1,41 @@
+* CREAR PROYECTO (LLENAR CAMPOS) -> OK
+    npm init
+
+* LIMPIAR CACHE SI MARCA ERROR 
+    npm cache clear --force
+    
+    npm install
+
+* INSTALAR EXPRESS -> OK
+    npm install --save express
+
+* INSTANCIANDO PROYECTO -> OK
+    npm init --yes
+
+* INSTALANDO DEPENDENCIA (PostgreSQL = pg || MySQL = mysql || SQLServer = mssql) -> OK
+    npm install express morgan mssql
+
+* ACTUALIZAR PAQUETERIA REGISTRO -> OK
+   npm set registry https://registry.npmjs.org/
+
+* INSTALANDO DEPENDENCIA PARA TOKEN -> OK
+    npm install --save express jsonwebtoken
+
+* INSTALAR DAEMON P/REFRESCAR SERVIDOR -> OK
+    npm install nodemon --save-dev
+
+* MODIFICAR EN PACKAGE.JSON P/CORRER CON NODEMON -> OK
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    }
+
+* INSTALAR MODULO P/ELIMINAR EN ARRAY -> OK
+    npm install underscore
+
+* LIMPIAR CACHE EN NPM
+    npm cache clean --force
+
+* EJECUTAR SERVIDOR -> OK
+    1-. node server.js (SI AUN NO TIENE CONFIGURADO EL NODEMON)
+    2-. npm run start
